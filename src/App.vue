@@ -1,6 +1,6 @@
 <template>
   <div class="w-screen h-screen  grid place-content-center background">
-    <div class="w-screen grid place-content-center py-8 mx-auto bg-black">
+    <div class="w-screen grid place-content-center py-8 mx-auto bg-black select-none">
       <p class="font-serif text-center uppercase text-2xl md:text-4xl font-bold text-white">Metachromatic</p>
       <div class="flex justify-between space-x-1 text-sm mb-2">
         <a class="text-neutral-400 hover:text-white capitalize font-sans font-light  hover:underline"
