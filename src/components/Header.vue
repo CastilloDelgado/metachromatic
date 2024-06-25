@@ -1,6 +1,6 @@
 <template>
-    <div class="border-b border-white ">
-        <div class="flex flex-col md:flex-row max-w-4xl mx-auto justify-between px-6 py-2">
+    <div class="border-b border-white sticky top-0 bg-black">
+        <div class="flex flex-col md:flex-row max-w-4xl mx-auto justify-between px-6 py-2 md:pt-4">
             <p
                 class="text-xl md:text-2xl text-white text-center md:text-start font-serif uppercase font-bold select-none">
                 Metachromatic</p>

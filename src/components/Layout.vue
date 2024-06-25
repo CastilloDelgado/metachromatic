@@ -6,7 +6,7 @@ import Footer from "./Footer.vue"
 <template>
     <div class="bg-black min-h-screen">
         <Header />
-        <div class="min-h-screen max-w-2xl mx-auto">
+        <div class="min-h-screen max-w-4xl mx-auto px-6 py-6">
 
             <slot />
 
