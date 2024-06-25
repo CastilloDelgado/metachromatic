@@ -8,7 +8,7 @@ import Loader from './Loader.vue';
 <template>
     <div>
         <p
-            class="font-mono  text-white uppercase font-light text-2xl border-b border-t border-dashed mb-4 py-2 text-center">
+            class="font-mono  text-white uppercase font-light text-xl border-b border-t border-dashed mb-4 py-2 text-center">
             Bitacora</p>
         <Event v-for="event in BITACORA.events" :event="event" />
     </div>
