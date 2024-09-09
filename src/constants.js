@@ -9,7 +9,7 @@ export const BITACORA = {
       country: "México",
       coords: "00,0000000, 00,0000000",
       description:
-        "Presentación de un LIVE SET en el Deep Club, muy buen stop escondido en el centro de la ciudad. En este set utilicé el mismo equipo de presentaciones anteriores pero incorporando el DIGITAKT I como secuaciador y caja de ritmos, una máquina muy poderosa dandole el uso adecuado. Un set de poco más de 40 minutos, aquí abajo dejo el link para quien lo quiera escuchar en Soundcloud o YouTube",
+        "Presentación de un LIVE SET en el Deep Club, buen spot escondido en el centro de la ciudad. En este set utilicé el mismo equipo de presentaciones anteriores pero incorporando el DIGITAKT I como secuaciador y caja de ritmos, una máquina muy poderosa dandole el uso adecuado. Un set de poco más de 40 minutos, aquí abajo dejo el link para quien lo quiera escuchar en Soundcloud o YouTube",
       date: "14/06/2024",
       time: "21:00 HRS",
       links: [
