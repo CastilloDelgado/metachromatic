@@ -1,6 +1,68 @@
 export const BITACORA = {
   events: [
     {
+      title: "Live Set en Berlin Bretzel Wagen para Berlins Underground",
+      titleLink: "",
+      location: "Berlin Bretzel Wagen",
+      city: "Guadalajara",
+      state: "Jalisco",
+      country: "México",
+      coords: "00,0000000, 00,0000000",
+      description:
+        "Por invitación del buen DJ Sanpler, un Live Set en el bar de comida en el corazón de la colonia Americana en Guadalajara, Jalisco. Muy buen spot para conectar con banda que te gusta la música y la chela un martes por la noche :)",
+      date: "03/09/2024",
+      time: "21:30 HRS",
+      links: [
+        {
+          title: "BerlinsUndeground",
+          link: "https://www.instagram.com/berlinsunderground/",
+        },
+        {
+          title: "Berlin Bretzel Wagen",
+          link: "https://www.instagram.com/berlinsbretzelwagen/",
+        },
+        {
+          title: "INSTA POST",
+          link: "https://www.instagram.com/p/C_goNf9vLcF/?img_index=1",
+        },
+        {
+          title: "DJ Sanpler",
+          link: "https://www.instagram.com/djsanpler/",
+        },
+      ],
+    },
+    {
+      title: "Live Set en Pedro y el León con EMOM",
+      titleLink: "",
+      location: "Pedro y el León",
+      city: "Guadalajara",
+      state: "Jalisco",
+      country: "México",
+      coords: "00,0000000, 00,0000000",
+      description:
+        "Live set en Pedro y el León con la banda de EMOMx.",
+      date: "30/07/2024",
+      time: "00:00 HRS",
+      links: [
+        {
+          title: "EMOM",
+          link: "https://www.instagram.com/emom_mx/",
+        },
+        {
+          title: "INSTA POST",
+          link: "https://www.instagram.com/p/C-dmpzRPQXl/?img_index=2",
+        },
+        {
+          title: "LIVE SET - SOUNDCLOUD",
+          link: "https://soundcloud.com/metachromatic/live_set_01_08_2024",
+        },
+        {
+          title: "Pedro y el León",
+          link: "https://www.instagram.com/pedroyelleon/",
+        },
+      ],
+    },
+    {
       title: "Live Set en Deep Club con EMOM",
       titleLink: "",
       location: "Pedro y el León",
