@@ -3,6 +3,24 @@ import Bitacora from './components/Bitacora.vue';
 import Layout from './components/Layout.vue';
 import Loader from './components/Loader.vue';
 import image from './assets/liquid.jpeg';
+
+import { onMounted, ref } from 'vue';
+
+const chars = ['|', '/', '-', "\\"]
+const char = ref('|')
+
+onMounted(() => {
+    let count = 0
+    setInterval(() => {
+        if (count < chars.length) {
+            char.value = chars[count]
+            count = count + 1
+            if (count === chars.length) {
+                count = 0
+            }
+        }
+    }, 200)
+})
 </script>
 
 <template>
@@ -12,7 +30,7 @@ import image from './assets/liquid.jpeg';
         <img :src="image" class="w-full md:w-1/2 mb-6" />
         <div class="mb-2 md:w-1/2 px-4 grid place-content-center">
           <div class="flex justify-between">
-            <Loader v-for="x in [...Array(30).keys()]" />
+            <p v-for="x in [...Array(30).keys()]" class="text-center font-mono text-lg text-white">{{ char }}</p>
           </div>
           <div class="py-2">
             <p class="text-4xl font-bold font-serif text-white uppercase text-center">Metachromatic</p>
@@ -36,7 +54,7 @@ import image from './assets/liquid.jpeg';
             <p class="text-center font-mono text-xs mt-2 mb-2">* Próximo Lanzamiento *</p>
           </div>
           <div class="flex justify-between py-2">
-            <Loader v-for="x in [...Array(30).keys()]" />
+            <p v-for="x in [...Array(30).keys()]" class="text-center font-mono text-lg text-white">{{ char }}</p>
           </div>
         </div>
       </div>
