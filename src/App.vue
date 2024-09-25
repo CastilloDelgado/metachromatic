@@ -30,7 +30,7 @@ import image from './assets/liquid.jpeg';
             <div class="py-6 bg-white">
               <p class="text-center text-2xl font-serif font-bold uppercase italic text-black bg-white">Un sin sentido</p>
               <p class="text-center text-sm  font-mono font-bold  text-black bg-white">
-                25-09-2024
+                XX-10-2024
               </p>
             </div>
             <p class="text-center font-mono text-xs mt-2 mb-2">* Próximo Lanzamiento *</p>
