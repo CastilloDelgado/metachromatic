@@ -1,6 +1,64 @@
 export const BITACORA = {
   events: [
     {
+      title: "☠️  Live Set para EMOM en Casa Cultural Calavera  ☠️",
+      titleLink: "",
+      location: "Casa Cultural Calavera",
+      city: "Guadalajara",
+      state: "Jalisco",
+      country: "México",
+      coords: "00,0000000, 00,0000000",
+      description:
+        "Un live set de más de 1 hora en el evento de Extropy MX por @monmelodies y @pieldemusgo en el centro de Guadalajara, acompañado del DJ David Casarrubias. Excelente evento acompañado de gente muy buena onda que empieza con proyectos grandes para la música alternativa y experimental que sin duda hacen falta pero que cada vez hay más en la ciudad de Guadalajara! Aquí dejo los links de relacionados al evento ya los organizadores para que los chequen y con suerte nos inviten otra vez a sus proximos eventos. MC.",
+      date: "22/11/2024",
+      time: "20:00 HRS",
+      links: [
+        {
+          title: "EMOMx",
+          link: "https://www.instagram.com/emom_mx/",
+        },
+        {
+          title: "Casa Cultural Calavera",
+          link: "https://www.instagram.com/casa_cultural_calavera/",
+        },
+        {
+          title: "Post de Insta",
+          link: "https://www.instagram.com/pieldemusgo/",
+        },
+      ],
+    },
+    {
+      title: "Live Set en Extropy",
+      titleLink: "",
+      location: "Secreta",
+      city: "Guadalajara",
+      state: "Jalisco",
+      country: "México",
+      coords: "00,0000000, 00,0000000",
+      description:
+        "Un live set de más de 1 hora en el evento de Extropy MX por @monmelodies y @pieldemusgo en el centro de Guadalajara, acompañado del DJ David Casarrubias. Excelente evento acompañado de gente muy buena onda que empieza con proyectos grandes para la música alternativa y experimental que sin duda hacen falta pero que cada vez hay más en la ciudad de Guadalajara! Aquí dejo los links de relacionados al evento ya los organizadores para que los chequen y con suerte nos inviten otra vez a sus proximos eventos. MC.",
+      date: "22/09/2024",
+      time: "20:00 HRS",
+      links: [
+        {
+          title: "Extropy MX",
+          link: "https://www.instagram.com/extropy.mx/",
+        },
+        {
+          title: "Casarrubias",
+          link: "https://www.instagram.com/casarrubiasd/",
+        },
+        {
+          title: "Piel de Musgo",
+          link: "https://www.instagram.com/pieldemusgo/",
+        },
+        {
+          title: "Monmelodies",
+          link: "https://www.instagram.com/monmelodies/",
+        },
+      ],
+    },
+    {
       title: "Live Set en Extropy",
       titleLink: "",
       location: "Secreta",

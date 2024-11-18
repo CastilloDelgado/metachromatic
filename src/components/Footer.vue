@@ -1,5 +1,5 @@
 <template>
-    <div class="border-t border-white pt-2 pb-4">
+    <div class="border-t border-white pt-4 pb-12">
         <div class="flex flex-col max-w-4xl mx-auto justify-between px-6">
             <p class="text-xl text-center text-white font-serif uppercase font-bold">Metachromatic</p>
 

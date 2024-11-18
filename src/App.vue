@@ -6,7 +6,8 @@ import Loader from './components/Loader.vue';
 import image from './assets/analepsis_cover.jpeg';
 
 
-import { onMounted, ref } from 'vue';
+import { isVNode, onMounted, ref } from 'vue';
+import LogoAscii from './components/LogoAscii.vue';
 
 const chars = ['|', '/', '-', "\\"]
 const char = ref('|')
@@ -28,14 +29,14 @@ onMounted(() => {
 <template>
   <Layout>
     <div class="min-h-[60vh] grid place-content-center">
-      <div class="w-full flex flex-col-reverse md:flex-row">
-        <img :src="image" class="w-full md:w-1/2 mb-6" />
-        <div class="mb-2 md:w-1/2 px-4 grid place-content-center">
+      <div class="w-full flex flex-col-reverse md:flex-row">  
+        <img :src="image" class="w-full md:w-1/2 mb-6 p-4 md:p-0" />
+        <div class="mt-2 mb-0 md:w-1/2 px-4 grid place-content-center">
           <div class="flex justify-between">
             <p v-for="x in [...Array(30).keys()]" class="text-center font-mono text-lg text-white">{{ char }}</p>
           </div>
           <div class="py-2">
-            <p class="text-4xl font-bold font-serif text-white uppercase text-center">Metachromatic</p>
+            <p class="text-2xl font-bold font-serif text-white uppercase text-center">Metachromatic</p>
             <div class="flex justify-center font-mono text-sm space-x-2 mb-2">
               <a href="https://www.instagram.com/metachromatic.inc/" target="_blank"
                 class="text-neutral-300 hover:text-white hover:italic hover:underline">Instagram</a>
@@ -46,9 +47,9 @@ onMounted(() => {
             </div>
           </div>
           <a href="https://soundcloud.com/metachromatic/analepsis" target="_blank">
-            <div class="text-white mb-2 group">
+            <div class="text-white mb-2 ">
               <p class="text-center font-mono text-xs mb-2">* Último Lanzamiento *</p>
-              <div class="py-5 bg-white hover:bg-black hover:text-white border border-white  text-black my-2 drop-shadow-sm">
+              <div class="py-5 group bg-white hover:bg-black hover:text-white border border-white  text-black my-2 drop-shadow-sm">
                 <p class="text-center text-2xl font-serif font-bold uppercase italic  ">Analepsis</p>
                 <p class="text-center text-sm font-mono normal-case group-hover:underline ">
                   Escuchar en Soundcloud
@@ -62,9 +63,14 @@ onMounted(() => {
           </div>
         </div>
       </div>
-      
     </div>
 
     <Bitacora />
+
+    <div class="py-4 w-full flex flex-row space-x-2 px-auto justify-center">
+
+        <LogoAscii />
+    </div>
+
   </Layout>
 </template>
