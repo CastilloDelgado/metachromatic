@@ -2,7 +2,9 @@
 import Bitacora from './components/Bitacora.vue';
 import Layout from './components/Layout.vue';
 import Loader from './components/Loader.vue';
-import image from './assets/liquid.jpeg';
+// import image from './assets/liquid.jpeg';
+import image from './assets/analepsis_cover.jpeg';
+
 
 import { onMounted, ref } from 'vue';
 
@@ -43,16 +45,18 @@ onMounted(() => {
                 class="text-neutral-300 hover:text-white hover:italic hover:underline">YouTube</a>
             </div>
           </div>
-          <div class="text-white mb-2">
-            <p class="text-center font-mono text-xs mb-2">* Próximo Lanzamiento *</p>
-            <div class="py-6 bg-white">
-              <p class="text-center text-2xl font-serif font-bold uppercase italic text-black bg-white">Un sin sentido</p>
-              <p class="text-center text-sm  font-mono font-bold  text-black bg-white">
-                XX-10-2024
-              </p>
+          <a href="https://soundcloud.com/metachromatic/analepsis" target="_blank">
+            <div class="text-white mb-2 group">
+              <p class="text-center font-mono text-xs mb-2">* Último Lanzamiento *</p>
+              <div class="py-5 bg-white hover:bg-black hover:text-white border border-white  text-black my-2 drop-shadow-sm">
+                <p class="text-center text-2xl font-serif font-bold uppercase italic  ">Analepsis</p>
+                <p class="text-center text-sm font-mono normal-case group-hover:underline ">
+                  Escuchar en Soundcloud
+                </p>
+              </div>
+              <p class="text-center font-mono text-xs mt-2 mb-2">* Último Lanzamiento *</p>
             </div>
-            <p class="text-center font-mono text-xs mt-2 mb-2">* Próximo Lanzamiento *</p>
-          </div>
+          </a>
           <div class="flex justify-between py-2">
             <p v-for="x in [...Array(30).keys()]" class="text-center font-mono text-lg text-white">{{ char }}</p>
           </div>
