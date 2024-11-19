@@ -64,41 +64,50 @@ const links = ref([
 
 <template>
     <div class="flex flex-col md:flex-row text-white">
-        <div class="w-full md:w-1/2 mb-4 md:mb-0">
-            <p class="font-mono border-y py-1 mb-4 text-center">***** Track Info General *****</p>
-            <div class="flex justify-center md:justify-end h-max gap-2">
-                <p class="text-neutral-400 font-mono text-xs mt-2">Título: </p>
-                <p class="text-2xl font-bold font-serif">Analepsis</p>
-            </div>
-            <div class="flex justify-center md:justify-end h-max gap-2">
-                <p class="text-neutral-400 font-mono text-xs mt-1">Key: </p>
-                <p class="">C Mayor</p>
-            </div>
-            <div class="flex justify-center md:justify-end h-max gap-2">
-                <p class="text-neutral-400 font-mono text-xs mt-1">BPM: </p>
-                <p class="">127</p>
-            </div>
-            <div class="flex justify-center md:justify-end h-max gap-2">
-                <p class="text-neutral-400 font-mono text-xs mt-1">Generos: </p>
-                <p class="">Techno, Breakbeat, Acid Techno</p>
-            </div>
-            <div class="flex justify-center md:justify-end h-max gap-2">
-                <p class="text-neutral-400 font-mono text-xs mt-1">Créditos: </p>
-                <p class="">Metachromatic</p>
-            </div>
-            <div class="flex justify-center md:justify-end h-max gap-2">
-                <p class="text-neutral-400 font-mono text-xs mt-1">Links: </p>
-                <div class="flex flex-col md:flex-row">
-                    <a 
-                        target="_blank" 
-                        :href="link.link" 
-                        v-for="link in links"
-                        class="bg-white me-1 text-nowrap uppercase text-black px-2 mb-1 hover:bg-black border border-black hover:border-white hover:text-white font-mono text-xs">
-                        {{link.title}}
+        <div class="w-full md:w-1/2 mb-4 md:mb-0 md:grid md:place-content-between md:pb-11">
+            <div class="mb-4 md:mb-0">
+                <p class="font-mono text-sm border-y py-1 mb-4 text-center">***** Track Info General *****</p>
+                <div class="flex justify-center md:justify-end h-max gap-2">
+                    <p class="text-neutral-400 font-mono text-xs mt-2">Título: </p>
+                    <p class="text-2xl font-bold font-serif">Analepsis</p>
+                </div>
+                <div class="flex justify-center md:justify-end h-max gap-2">
+                    <p class="text-neutral-400 font-mono text-xs mt-1">Key: </p>
+                    <p class="">C Frigio</p>
+                </div>
+                <div class="flex justify-center md:justify-end h-max gap-2">
+                    <p class="text-neutral-400 font-mono text-xs mt-1">BPM: </p>
+                    <p class="">127</p>
+                </div>
+                <div class="flex justify-center md:justify-end h-max gap-2">
+                    <p class="text-neutral-400 font-mono text-xs mt-1">Generos: </p>
+                    <p class="">Techno, Breakbeat, Acid Techno</p>
+                </div>
+                <div class="flex justify-center md:justify-end h-max gap-2 mb-1">
+                    <p class="text-neutral-400 font-mono text-xs mt-1">Créditos: </p>
+                    <a href="https://www.instagram.com/metachromatic.inc/">
+                        <p class="">Metachromatic</p>
                     </a>
                 </div>
+                <div class="flex justify-center md:justify-end h-max gap-2">
+                    <p class="text-neutral-400 font-mono text-xs mt-1">Links: </p>
+                    <div class="flex flex-col md:flex-row">
+                        <a 
+                            target="_blank" 
+                            :href="link.link" 
+                            v-for="link in links"
+                            class="bg-white me-1 text-nowrap uppercase text-black px-2 mb-1 hover:bg-black border border-black hover:border-white hover:text-white font-mono text-xs">
+                            {{link.title}}
+                        </a>
+                    </div>
+                </div>
             </div>
-            
+            <div class="">
+                <a href="https://metachromatic.bandcamp.com/track/analepsis" target="_blank">
+                    <p class="text-neutral-400 font-mono text-xs md:mb-1">Escuchar en Bandcamp</p>
+                </a>
+                <iframe class="mt-1 md:mt-4 lg:mt-0" style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/track=63948725/size=large/bgcol=333333/linkcol=fe7eaf/tracklist=false/artwork=small/transparent=true/" seamless><a href="https://metachromatic.bandcamp.com/track/analepsis">Analepsis by Metachromatic</a></iframe>
+            </div>
         </div>
         <div class="w-full md:w-1/2 md:p-6 mb-4 md:mb-0">
             <div class="mt-1 flex justify-start font-mono text-xs mb-1 text-neutral-400">Click para escuchar la canción en Soundcloud</div>

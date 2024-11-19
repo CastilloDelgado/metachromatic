@@ -12,7 +12,7 @@ defineProps({
 <template>
     <div class="border-b border-white text-white pb-4 border-dashed mb-3">
         <p class="font-serif text-xl font-bold capitalize">{{ event.title }}</p>
-        <div class="font-mono text-[12px] flex space-x-2 mb-4 flex-wrap-reverse">
+        <div class="font-mono text-[12px] flex space-x-2 mb-4 flex-wrap-reverse text-neutral-500">
             <p>{{ event.city }}</p>
             <p>{{ event.state }}</p>
             <p>{{ event.country }}</p>
