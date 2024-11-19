@@ -28,7 +28,7 @@ export const BITACORA = {
       ],
     },
     {
-      title: "Live Set en Extropy",
+      title: "Live Set para EMOM x Extropy",
       titleLink: "",
       location: "Secreta",
       city: "Guadalajara",
@@ -37,8 +37,8 @@ export const BITACORA = {
       coords: "00,0000000, 00,0000000",
       description:
         "Un live set de más de 1 hora en el evento de Extropy MX por @monmelodies y @pieldemusgo en el centro de Guadalajara, acompañado del DJ David Casarrubias. Excelente evento acompañado de gente muy buena onda que empieza con proyectos grandes para la música alternativa y experimental que sin duda hacen falta pero que cada vez hay más en la ciudad de Guadalajara! Aquí dejo los links de relacionados al evento ya los organizadores para que los chequen y con suerte nos inviten otra vez a sus proximos eventos. MC.",
-      date: "22/09/2024",
-      time: "20:00 HRS",
+      date: "25/10/2024",
+      time: "11:00 HRS",
       links: [
         {
           title: "Extropy MX",
