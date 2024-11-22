@@ -61,11 +61,14 @@ const links = ref([
     },
     {
         title: "Soundcloud",
-        link: "https://soundcloud.com/metachromatic/analepsis"
+        link: "https://soundcloud.com/metachromatic/analepsis",
+        buttonColor: "bg-orange-600 text-white",
+
     },
     {
         title: "Bandcamp",
-        link: "https://metachromatic.bandcamp.com/track/analepsis"
+        link: "https://metachromatic.bandcamp.com/track/analepsis",
+        buttonColor: "bg-teal-600 text-white"
     },
 
 ])
