@@ -1,6 +1,5 @@
 import { createRouter, createWebHistory } from "vue-router";
 import HomeView from "../pages/HomeView.vue";
-import VolumneIView from "../pages/VolumneIView.vue";
 import AnalepsisView from "../pages/AnalepsisView.vue";
 
 export const router = createRouter({
@@ -16,10 +15,5 @@ export const router = createRouter({
             name: 'Analepsis',
             component: AnalepsisView,
         }, 
-        // {
-        //     path: '/volumen-1',
-        //     name: 'Volumen_1',
-        //     component: VolumneIView,
-        // }, 
     ]
 })

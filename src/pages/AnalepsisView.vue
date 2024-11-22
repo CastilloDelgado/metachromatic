@@ -50,11 +50,21 @@ const grid2 = ref([
 
 const links = ref([
     {
-        title: "Escuchar en Soundcloud",
+        title: "Spotify",
+        link: "https://open.spotify.com/track/6KMTdas2Abkc5hQ8mDMPT1?si=f8217fb0f3f34c0c",
+        buttonColor: "bg-green-600 text-white"
+    },
+    {
+        title: "Apple Music",
+        link: "https://music.apple.com/mx/album/analepsis-single/1780813174?l=en-GB",
+        buttonColor: "bg-red-600 text-white"
+    },
+    {
+        title: "Soundcloud",
         link: "https://soundcloud.com/metachromatic/analepsis"
     },
     {
-        title: "Escuchar en Bandcamp",
+        title: "Bandcamp",
         link: "https://metachromatic.bandcamp.com/track/analepsis"
     },
 
@@ -96,7 +106,8 @@ const links = ref([
                             target="_blank" 
                             :href="link.link" 
                             v-for="link in links"
-                            class="bg-white me-1 text-nowrap uppercase text-black px-2 mb-1 hover:bg-black border border-black hover:border-white hover:text-white font-mono text-xs">
+                            :class="`${link.buttonColor || 'bg-white'}`"
+                            class="me-1 text-nowrap uppercase text-black px-2 mb-1 hover:bg-black border border-black hover:border-white hover:text-white font-mono text-xs">
                             {{link.title}}
                         </a>
                     </div>
