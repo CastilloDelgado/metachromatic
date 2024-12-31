@@ -10,7 +10,7 @@ defineProps({
 </script>
 
 <template>
-    <div class="border-b border-white text-white pb-4 border-dashed mb-3">
+    <div class="border-b border-white text-white pb-4 border-dashed mb-3 select-none">
         <p class="font-serif text-xl font-bold capitalize">{{ event.title }}</p>
         <div class="font-mono text-[12px] flex space-x-2 mb-4 flex-wrap-reverse text-neutral-500">
             <p>{{ event.city }}</p>
@@ -19,9 +19,15 @@ defineProps({
             <p>{{ event.date }}</p>
             <p>{{ event.time }}</p>
         </div>
-        <p class="text-sans text-justify text-sm">
-            {{ event.description }}
-        </p>
+        <p class="text-sans text-justify text-sm mb-2" v-for="paragraph in event.description.split(/\r?\n/)" >{{ paragraph }}</p>
+        <div v-if="event.images" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-2 pt-3 pb-1">
+            <a v-for="image in event.images" :href="image.link" target="_blank">
+                <div>
+                    <img class="w-full border-neutral-800 border object-cover" :src="image.src" :alt="image.caption"  />
+                    <p class="text-end text-xs lowercase text-neutral-500 italic">{{ image.caption }}</p>
+                </div>
+            </a>
+        </div>
         <div class="flex justify-end flex-wrap mt-3">
             <a target="_blank" :href="link.link" v-for="link in event.links"
                 class="bg-white me-1 uppercase text-black px-2 mb-1 hover:bg-black border border-black hover:border-white hover:text-white font-mono text-xs">{{

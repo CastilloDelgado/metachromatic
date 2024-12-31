@@ -1,5 +1,279 @@
+import image from "./assets/posada/posada_1.jpeg";
+import emom_pedro_1 from "./assets/emom_pedro/emom_pedro_1.jpeg";
+import emom_pedro_2 from "./assets/emom_pedro/emom_pedro_2.jpeg";
+import emom_pedro_3 from "./assets/emom_pedro/emom_pedro_3.jpeg";
+import emom_pedro_4 from "./assets/emom_pedro/emom_pedro_4.jpeg";
+import emom_pedro_5 from "./assets/emom_pedro/emom_pedro_5.jpeg";
+import emom_pedro_6 from "./assets/emom_pedro/emom_pedro_6.jpeg";
+import casa_jungla_1 from "./assets/posada_casa_jungla/posada_jungla_1.jpeg";
+import casa_jungla_2 from "./assets/posada_casa_jungla/posada_jungla_2.jpeg";
+import casa_jungla_3 from "./assets/posada_casa_jungla/posada_jungla_3.jpeg";
+import casa_jungla_4 from "./assets/posada_casa_jungla/posada_jungla_4.jpeg";
+import casa_jungla_5 from "./assets/posada_casa_jungla/posada_jungla_5.jpg";
+
 export const BITACORA = {
   events: [
+    // Canaklaus Evento Canabico
+    {
+      title: "Canaklaus Evento Canabico en Galería Arcano 0",
+      titleLink: "",
+      location: "Arcano 0",
+      city: "Guadalajara",
+      state: "Jalisco",
+      country: "México",
+      coords: "00,0000000, 00,0000000",
+      description: `Test
+      Test
+      Test
+      Test
+      Test`,
+      date: "20/12/2024",
+      time: "23:00 HRS",
+      links: [
+        {
+          title: "EMOMx",
+          link: "https://www.instagram.com/emom_mx/",
+        },
+        {
+          title: "Casa Cultural Calavera",
+          link: "https://www.instagram.com/casa_cultural_calavera/",
+        },
+        {
+          title: "Post de Insta",
+          link: "https://www.instagram.com/p/DCkF_2IRref/?img_index=1",
+        },
+      ],
+      images: [
+        {
+          src: casa_jungla_1,
+          caption: "This is a test 1",
+          link: "https://www.google.com"
+        },
+        {
+          src: casa_jungla_3,
+          caption: "This is a test 3",
+          link: "https://www.google.com"
+        },
+        {
+          src: casa_jungla_4,
+          caption: "This is a test 3",
+          link: "https://www.google.com"
+        },
+      ]
+    },
+    // Aniversario EMOMX en Galería Arcano 0
+    {
+      title: "Aniversario EMOMX en Galería Arcano 0",
+      titleLink: "",
+      location: "Arcano 0",
+      city: "Guadalajara",
+      state: "Jalisco",
+      country: "México",
+      coords: "00,0000000, 00,0000000",
+      description:
+        "Aniversario del 1er Año de EMOMX",
+      date: "20/12/2024",
+      time: "23:00 HRS",
+      links: [
+        {
+          title: "EMOMx",
+          link: "https://www.instagram.com/emom_mx/",
+        },
+        {
+          title: "Casa Cultural Calavera",
+          link: "https://www.instagram.com/casa_cultural_calavera/",
+        },
+        {
+          title: "Post de Insta",
+          link: "https://www.instagram.com/p/DCkF_2IRref/?img_index=1",
+        },
+      ],
+      images: [
+        {
+          src: image,
+          caption: "This is a test 1",
+          link: "https://www.google.com"
+        },
+        {
+          src: image,
+          caption: "This is a test 2",
+          link: "https://www.google.com"
+        },
+        {
+          src: image,
+          caption: "This is a test 3",
+          link: "https://www.google.com"
+        },
+      ]
+    },
+    // Posada Casas Jungla
+    {
+      title: "Posada de Cerveza Cantón en Casa Jungla",
+      titleLink: "",
+      location: "Casa Jungla",
+      city: "Guadalajara",
+      state: "Jalisco",
+      country: "México",
+      coords: "00,0000000, 00,0000000",
+      description: 
+`Justo a la llegada del invierno y de todo el caos navideño me invitaron a tocar a la posada de Cerveza Cantón que organizaron en Casa Jungla, un spot en la colonia Americana en Guadalajara para eventos culturales.
+Me invitaron con poco tiempo de anticipación y tuve que improvisar un poco con lo que iba a tocar pero al final resultó en un set de casi una hora y media de todas las canciones y maquetas que hice durante el año y el resultado me gustó mucho, no me llevé el setup completo (me dio flojera cargar tanto la verdad) pero me dio una buena idea de lo que iba a tocar en el siguiente evento que es el aniversario de EMOMX.
+Me divertí mucho en el evento, comí unos sushis bien chidos, me encontré con compillas de antaño y al final terminamos cotorreando todos con los sets que se aventaron @baumalmusic y @juanito_bistec.
+Muchas gracias a todo el team y en especial al Juanito que además me ayudó a grabar mi set para que no muriera en el olvido.
+
+MC.
+`,
+      date: "20/12/2024",
+      time: "23:00 HRS",
+      links: [
+        {
+          title: "Escucha el Set",
+          link: "https://youtu.be/j9QYsPu10jg",
+        },
+        {
+          title: "Casa Jungla",
+          link: "https://www.instagram.com/casajunglachapultepec/",
+        },
+        {
+          title: "Tako Sushi",
+          link: "https://www.instagram.com/tako_sushi_gdl/",
+        },
+        {
+          title: "Cerveza Cantón",
+          link: "https://www.instagram.com/cervezacanton/",
+        },
+        {
+          title: "juanito_bistec",
+          link: "https://www.instagram.com/juanito_bistec/",
+        },
+        {
+          title: "baumalmusic",
+          link: "https://www.instagram.com/baumalmusic/",
+        },
+      ],
+      images: [
+        {
+          src: casa_jungla_1,
+          caption: "Viniles del Juanito",
+          link: "https://www.instagram.com/juanito_bistec/"
+        },
+        {
+          src: casa_jungla_5,
+          caption: "baumalmusic",
+          link: "https://www.instagram.com/baumalmusic/"
+        },
+        {
+          src: casa_jungla_3,
+          caption: "juanito bistec",
+          link: "https://www.instagram.com/juanito_bistec/"
+        },
+        {
+          src: casa_jungla_4,
+          caption: "los compillas de antaño",
+          link: "https://youtu.be/j9QYsPu10jg"
+        },
+        {
+          src: casa_jungla_2,
+          caption: "???",
+          link: "https://youtu.be/j9QYsPu10jg"
+        },
+      ]
+    },
+    // EMOM Pedro y el León
+    {
+      title: "EMOMX en Pedro y el León",
+      titleLink: "",
+      location: "Pedro y el León",
+      city: "Guadalajara",
+      state: "Jalisco",
+      country: "México",
+      coords: "00,0000000, 00,0000000",
+      description:
+`Después de casi 6 meses de haber tocado por primera vez este proyecto en vivo en este lugar en específico, volví a tocar en el mismo spot las mismas canciones que toqué esa primera vez pero mucho más maduras, mejor estructuradas y con un mejor entendimiento de todo mi setup haciéndolas sonar totalmente diferente pero comparandolas con los videos de aquella vez se puede notar que la idea estaba ahí desde el principio.
+También toqué por primera vez en vivo la canción de Analepsis y estuvo chido que algunas de las personas que la escucharon la identificaron en el set, señal que no suena tan diferente en vivo que era algo que me daba miedo.
+Me dió muchísimo gusto ver cómo han madurado los proyectos de todos los que hemos estado haciendo música en Guadalajara y ver que todos estuvimos muy bien acompañados por nuestros amigos que nos han seguido desde el principio y de los que se han sumado en el camino es una prueba clara de que este movimiento está creciendo.
+Gracias al team de EMOMX y en especial gracias a DJ Sanpler que siempre se rifa con la organización de estos eventos en Pedro y el León y en especial por invitarnos a todos, casi todos los que tocamos en EMOMX (y en Guadalajara) nos conocemos gracias a él.
+Me da mucho orgullo ver el progreso de estos últimos 6 meses y me da mucha más ansiedad pensar en que pasará en los siguientes.
+
+MC.
+`,
+      date: "28/11/2024",
+      time: "23:00 HRS",
+      links: [
+        {
+          title: "Post de Instagram",
+          link: "https://www.instagram.com/p/DCkF_2IRref/?img_index=1",
+        },
+        {
+          title: "Terrible Bytes",
+          link: "https://www.instagram.com/trrbl.bytes/",
+        },
+        {
+          title: "Sinclair",
+          link: "https://www.instagram.com/sinclaircastro2022/",
+        },
+        {
+          title: "4/4",
+          link: "https://www.instagram.com/p/DD756BTytfL/",
+        },
+        {
+          title: "Fall Fever",
+          link: "https://www.instagram.com/the_fall_fever/",
+        },
+        {
+          title: "Paskal Vallis",
+          link: "https://www.instagram.com/paskal_vallis_/",
+        },
+        {
+          title: "DJ Sanpler",
+          link: "https://www.instagram.com/djsanpler/",
+        },
+        {
+          title: "Pedro y el León",
+          link: "https://www.instagram.com/pedroyelleon/",
+        },
+        {
+          title: "Escucha Analepsis",
+          link: "https://metachromatic.online/analepsis",
+        },
+        {
+          title: "Bubatron",
+          link: "https://www.instagram.com/bubatron_/",
+        },
+      ],
+      images: [
+        {
+          src: emom_pedro_1,
+          caption: "4/4",
+          link: "https://www.instagram.com/p/DD756BTytfL/"
+        },
+        {
+          src: emom_pedro_2,
+          caption: "Sinclair",
+          link: "https://www.instagram.com/sinclaircastro2022/"
+        },
+        {
+          src: emom_pedro_3,
+          caption: "DJ Sanpler",
+          link: "https://www.instagram.com/djsanpler/"
+        },
+        {
+          src: emom_pedro_4,
+          caption: "4/4",
+          link: "https://www.instagram.com/p/DD756BTytfL/"
+        },
+        {
+          src: emom_pedro_5,
+          caption: "El modular de Bubatron",
+          link: "https://www.instagram.com/bubatron_/"
+        },
+        {
+          src: emom_pedro_6,
+          caption: "Fall Fever y Paskal Vallis",
+          link: "https://www.instagram.com/reel/C-JyHVmsRpC/"
+        },
+      ]
+    },
     {
       title: "☠️  Live Set para EMOM en Casa Cultural Calavera  ☠️",
       titleLink: "",
