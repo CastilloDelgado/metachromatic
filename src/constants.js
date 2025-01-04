@@ -63,15 +63,15 @@ export const BITACORA = {
     },
     // Aniversario EMOMX en Galería Arcano 0
     {
-      title: "Aniversario EMOMX en Galería Arcano 0",
+      title: "1er Aniversario de EMOMX en Galería Arcano 0",
       titleLink: "",
-      location: "Arcano 0",
+      location: "Galería Arcano 0",
       city: "Guadalajara",
       state: "Jalisco",
       country: "México",
       coords: "00,0000000, 00,0000000",
       description:
-        "Aniversario del 1er Año de EMOMX",
+        "",
       date: "20/12/2024",
       time: "23:00 HRS",
       links: [
