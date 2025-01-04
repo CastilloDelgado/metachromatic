@@ -22,8 +22,8 @@ defineProps({
         <p class="text-sans text-justify text-sm mb-2" v-for="paragraph in event.description.split(/\r?\n/)" >{{ paragraph }}</p>
         <div v-if="event.images" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-2 pt-3 pb-1">
             <a v-for="image in event.images" :href="image.link" target="_blank">
-                <div>
-                    <img class="w-full border-neutral-800 border object-cover" :src="image.src" :alt="image.caption"  />
+                <div class="h-96 pb-4">
+                    <img class="w-full h-full border-neutral-800 border object-cover" :src="image.src" :alt="image.caption"  />
                     <p class="text-end text-xs lowercase text-neutral-500 italic">{{ image.caption }}</p>
                 </div>
             </a>

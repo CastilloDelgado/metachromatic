@@ -1,33 +1,74 @@
 import image from "./assets/posada/posada_1.jpeg";
+
 import emom_pedro_1 from "./assets/emom_pedro/emom_pedro_1.jpeg";
 import emom_pedro_2 from "./assets/emom_pedro/emom_pedro_2.jpeg";
 import emom_pedro_3 from "./assets/emom_pedro/emom_pedro_3.jpeg";
 import emom_pedro_4 from "./assets/emom_pedro/emom_pedro_4.jpeg";
 import emom_pedro_5 from "./assets/emom_pedro/emom_pedro_5.jpeg";
 import emom_pedro_6 from "./assets/emom_pedro/emom_pedro_6.jpeg";
+
 import casa_jungla_1 from "./assets/posada_casa_jungla/posada_jungla_1.jpeg";
 import casa_jungla_2 from "./assets/posada_casa_jungla/posada_jungla_2.jpeg";
 import casa_jungla_3 from "./assets/posada_casa_jungla/posada_jungla_3.jpeg";
 import casa_jungla_4 from "./assets/posada_casa_jungla/posada_jungla_4.jpeg";
 import casa_jungla_5 from "./assets/posada_casa_jungla/posada_jungla_5.jpg";
 
+import emom_aniversario_1 from "./assets/emom_aniversario/emom_aniversario_1.jpeg";
+import emom_aniversario_2 from "./assets/emom_aniversario/emom_aniversario_2.jpeg";
+import emom_aniversario_3 from "./assets/emom_aniversario/emom_aniversario_3.jpeg";
+import emom_aniversario_4 from "./assets/emom_aniversario/emom_aniversario_4.jpeg";
+import emom_aniversario_5 from "./assets/emom_aniversario/emom_aniversario_5.jpeg";
+import emom_aniversario_6 from "./assets/emom_aniversario/emom_aniversario_6.jpeg";
+import emom_aniversario_7 from "./assets/emom_aniversario/emom_aniversario_7.jpeg";
+import emom_aniversario_8 from "./assets/emom_aniversario/emom_aniversario_8.jpeg";
+import emom_aniversario_9 from "./assets/emom_aniversario/emom_aniversario_9.jpeg";
+import emom_aniversario_10 from "./assets/emom_aniversario/emom_aniversario_10.jpeg";
+import emom_aniversario_11 from "./assets/emom_aniversario/emom_aniversario_11.jpeg";
+import emom_aniversario_12 from "./assets/emom_aniversario/emom_aniversario_12.jpeg";
+import emom_aniversario_13 from "./assets/emom_aniversario/emom_aniversario_13.jpeg";
+import emom_aniversario_14 from "./assets/emom_aniversario/emom_aniversario_14.jpeg";
+import emom_aniversario_15 from "./assets/emom_aniversario/emom_aniversario_15.jpeg";
+import emom_aniversario_16 from "./assets/emom_aniversario/emom_aniversario_16.jpeg";
+import emom_aniversario_17 from "./assets/emom_aniversario/emom_aniversario_17.jpeg";
+import emom_aniversario_18 from "./assets/emom_aniversario/emom_aniversario_18.jpeg";
+import emom_aniversario_19 from "./assets/emom_aniversario/emom_aniversario_19.jpeg";
+import emom_aniversario_20 from "./assets/emom_aniversario/emom_aniversario_20.jpeg";
+import emom_aniversario_21 from "./assets/emom_aniversario/emom_aniversario_21.jpeg";
+
+import cannaklaus_1 from "./assets/cannaklaus/cannaklaus_1.jpeg";
+import cannaklaus_2 from "./assets/cannaklaus/cannaklaus_2.jpeg";
+import cannaklaus_3 from "./assets/cannaklaus/cannaklaus_3.jpeg";
+import cannaklaus_4 from "./assets/cannaklaus/cannaklaus_4.jpeg";
+import cannaklaus_5 from "./assets/cannaklaus/cannaklaus_5.jpeg";
+import cannaklaus_6 from "./assets/cannaklaus/cannaklaus_6.jpeg";
+import cannaklaus_7 from "./assets/cannaklaus/cannaklaus_7.jpeg";
+import cannaklaus_8 from "./assets/cannaklaus/cannaklaus_8.jpeg";
+import cannaklaus_9 from "./assets/cannaklaus/cannaklaus_9.jpeg";
+import cannaklaus_10 from "./assets/cannaklaus/cannaklaus_10.jpeg";
+import cannaklaus_11 from "./assets/cannaklaus/cannaklaus_11.jpeg";
+import cannaklaus_12 from "./assets/cannaklaus/cannaklaus_12.jpeg";
+import cannaklaus_13 from "./assets/cannaklaus/cannaklaus_13.jpeg";
+
 export const BITACORA = {
   events: [
     // Canaklaus Evento Canabico
     {
-      title: "Canaklaus Evento Canabico en Galería Arcano 0",
+      title: "Cannaklaus Evento Cannábico en Galería Arcano 0",
       titleLink: "",
       location: "Arcano 0",
       city: "Guadalajara",
       state: "Jalisco",
       country: "México",
       coords: "00,0000000, 00,0000000",
-      description: `Test
-      Test
-      Test
-      Test
-      Test`,
-      date: "20/12/2024",
+      description: 
+`Me invitaron a tocar a un evento cannábico al día siguiente y en el mismo lugar del aniversario de EMOMX, acepté porque el set del día anterior había sido muy corto y tenía ganas de tocar el set completo con el audio que teníamos, aparte el spot de arcano está muy chido, no iba a desperdiciar la oportunidad de tener la galería para nosotros otra vez.
+Para el aniversario de EMOMX tenía planeado poner visuales pero con todo el relajo que fue conectar y desconectar el setup para tocar dos veces terminé harto de conectar cables y no puse los visuales, aparte de que estuvieron varios muy chidos poniendo visuales.
+En el evento tocaron algunos grupos, mi favorito fue Ecos del Mundo que tocan música tradicional de diferentes épocas y de diferentes partes del mundo. Fue toda una experiencia escucharlos en este tipo de eventos que tienen como vibra gitana con gente vendiendo parafernalia para marihuana y creo que había alguien por ahí vendiendo plantas medicinales y haciendo Tarot. 
+Todo eso fue en la azotea del spot, después de esto bajamos el audio a la galería y empezamos a practicar con los sintetizadores y aquí fue donde por fin pude poner los visuales que tenía preparados. Al principio me hubiera gustado ver los visuales en una pared lista pero al final estuvo chido ver cómo intervienen los visuales autogenerados con los cuadros y con la galería en general. Pude por fin poner unos visuales que se conectaban a una cámara para agregarle efectos pero no hubo fotos de eso :( espero por fin en el próximo evento ponerlos. 
+Fue una experiencia nueva ver que la gente se acercaba a los visuales a tomarles fotos, que se ponían enfrente y se tomaban fotos con ellos y algunos solo se quedaban ahí viéndolos un ratote. Me da mucho gusto ver que alguien se tome el tiempo de apreciar algo que he estado haciendo solo en mi cuarto a las 3 de la mañana, algo que creí que nunca me iba a servir de nada y que tal vez iba a morir en el olvido. Voy a intentar llevarlos cada vez que toque, no quiero agregar un equipo más a mi setup, ya cargo demasiadas cosas pero es algo que me gustaría hacer y espero encontrar la manera de hacerlo.
+En fin, gracias al equipo detrás de Cannaklaus y de Galería Arcano por hacer posible este tipo de eventos, apoyar tanto al talento local y reunir personas para vivir este tipo de experiencias que son muy diferentes a lo que hay actualmente en nuestro ambiente.
+MC.`,
+      date: "28/12/2024",
       time: "23:00 HRS",
       links: [
         {
@@ -45,20 +86,71 @@ export const BITACORA = {
       ],
       images: [
         {
-          src: casa_jungla_1,
+          src: cannaklaus_1,
           caption: "This is a test 1",
           link: "https://www.google.com"
         },
         {
-          src: casa_jungla_3,
-          caption: "This is a test 3",
+          src: cannaklaus_2,
+          caption: "This is a test 1",
           link: "https://www.google.com"
         },
         {
-          src: casa_jungla_4,
-          caption: "This is a test 3",
+          src: cannaklaus_3,
+          caption: "This is a test 1",
           link: "https://www.google.com"
         },
+        {
+          src: cannaklaus_4,
+          caption: "This is a test 1",
+          link: "https://www.google.com"
+        },
+        {
+          src: cannaklaus_5,
+          caption: "This is a test 1",
+          link: "https://www.google.com"
+        },
+        {
+          src: cannaklaus_6,
+          caption: "This is a test 1",
+          link: "https://www.google.com"
+        },
+        {
+          src: cannaklaus_7,
+          caption: "This is a test 1",
+          link: "https://www.google.com"
+        },
+        {
+          src: cannaklaus_8,
+          caption: "This is a test 1",
+          link: "https://www.google.com"
+        },
+        {
+          src: cannaklaus_9,
+          caption: "This is a test 1",
+          link: "https://www.google.com"
+        },
+        {
+          src: cannaklaus_10,
+          caption: "This is a test 1",
+          link: "https://www.google.com"
+        },
+        {
+          src: cannaklaus_11,
+          caption: "This is a test 1",
+          link: "https://www.google.com"
+        },
+        {
+          src: cannaklaus_12,
+          caption: "This is a test 1",
+          link: "https://www.google.com"
+        },
+        {
+          src: cannaklaus_13,
+          caption: "This is a test 1",
+          link: "https://www.google.com"
+        },
+        
       ]
     },
     // Aniversario EMOMX en Galería Arcano 0
@@ -72,7 +164,7 @@ export const BITACORA = {
       coords: "00,0000000, 00,0000000",
       description:
         "",
-      date: "20/12/2024",
+      date: "27/12/2024",
       time: "23:00 HRS",
       links: [
         {
@@ -90,20 +182,111 @@ export const BITACORA = {
       ],
       images: [
         {
-          src: image,
+          src: emom_aniversario_1,
           caption: "This is a test 1",
           link: "https://www.google.com"
         },
         {
-          src: image,
-          caption: "This is a test 2",
+          src: emom_aniversario_2,
+          caption: "This is a test 1",
           link: "https://www.google.com"
         },
         {
-          src: image,
-          caption: "This is a test 3",
+          src: emom_aniversario_3,
+          caption: "This is a test 1",
           link: "https://www.google.com"
         },
+        {
+          src: emom_aniversario_4,
+          caption: "This is a test 1",
+          link: "https://www.google.com"
+        },
+        {
+          src: emom_aniversario_5,
+          caption: "This is a test 1",
+          link: "https://www.google.com"
+        },
+        {
+          src: emom_aniversario_6,
+          caption: "This is a test 1",
+          link: "https://www.google.com"
+        },
+        {
+          src: emom_aniversario_7,
+          caption: "This is a test 1",
+          link: "https://www.google.com"
+        },
+        {
+          src: emom_aniversario_8,
+          caption: "This is a test 1",
+          link: "https://www.google.com"
+        },
+        {
+          src: emom_aniversario_9,
+          caption: "This is a test 1",
+          link: "https://www.google.com"
+        },
+        {
+          src: emom_aniversario_10,
+          caption: "This is a test 1",
+          link: "https://www.google.com"
+        },
+        {
+          src: emom_aniversario_11,
+          caption: "This is a test 1",
+          link: "https://www.google.com"
+        },
+        {
+          src: emom_aniversario_12,
+          caption: "This is a test 1",
+          link: "https://www.google.com"
+        },
+        {
+          src: emom_aniversario_13,
+          caption: "This is a test 1",
+          link: "https://www.google.com"
+        },
+        {
+          src: emom_aniversario_14,
+          caption: "This is a test 1",
+          link: "https://www.google.com"
+        },
+        {
+          src: emom_aniversario_15,
+          caption: "This is a test 1",
+          link: "https://www.google.com"
+        },
+        {
+          src: emom_aniversario_16,
+          caption: "This is a test 1",
+          link: "https://www.google.com"
+        },
+        {
+          src: emom_aniversario_17,
+          caption: "This is a test 1",
+          link: "https://www.google.com"
+        },
+        {
+          src: emom_aniversario_18,
+          caption: "This is a test 1",
+          link: "https://www.google.com"
+        },
+        {
+          src: emom_aniversario_19,
+          caption: "This is a test 1",
+          link: "https://www.google.com"
+        },
+        {
+          src: emom_aniversario_20,
+          caption: "This is a test 1",
+          link: "https://www.google.com"
+        },
+        {
+          src: emom_aniversario_21,
+          caption: "This is a test 1",
+          link: "https://www.google.com"
+        },
+        
       ]
     },
     // Posada Casas Jungla
