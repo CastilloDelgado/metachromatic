@@ -72,83 +72,87 @@ MC.`,
       time: "23:00 HRS",
       links: [
         {
-          title: "EMOMx",
-          link: "https://www.instagram.com/emom_mx/",
+          title: "Galería Arcano 0",
+          link: "https://www.instagram.com/arcano.cero.gallery/"
         },
         {
-          title: "Casa Cultural Calavera",
-          link: "https://www.instagram.com/casa_cultural_calavera/",
+          title: "Ecos del Mundo",
+          link: "https://www.instagram.com/ecos_del_mundo__/"
         },
         {
-          title: "Post de Insta",
-          link: "https://www.instagram.com/p/DCkF_2IRref/?img_index=1",
+          title: "Soundmachine",
+          link: "https://www.instagram.com/soundmachinemx/"
+        },
+        {
+          title: "elefphant",
+          link: "https://www.instagram.com/elefphanth/"
         },
       ],
       images: [
         {
           src: cannaklaus_1,
-          caption: "This is a test 1",
-          link: "https://www.google.com"
+          caption: "Ecos del mundo",
+          link: "https://www.instagram.com/ecos_del_mundo__/"
         },
         {
           src: cannaklaus_2,
-          caption: "This is a test 1",
-          link: "https://www.google.com"
+         caption: "Ecos del mundo",
+          link: "https://www.instagram.com/ecos_del_mundo__/"
         },
         {
           src: cannaklaus_3,
-          caption: "This is a test 1",
-          link: "https://www.google.com"
+          caption: "mis visuales",
+          link: "https://open.spotify.com/track/6KMTdas2Abkc5hQ8mDMPT1?si=f8217fb0f3f34c0c&nd=1&dlsi=8fc9baf1d5854ea9"
         },
         {
           src: cannaklaus_4,
-          caption: "This is a test 1",
-          link: "https://www.google.com"
+          caption: "soundmachine",
+          link: "https://www.instagram.com/soundmachinemx/"
         },
         {
           src: cannaklaus_5,
-          caption: "This is a test 1",
-          link: "https://www.google.com"
+          caption: "???",
+          link: "https://open.spotify.com/track/6KMTdas2Abkc5hQ8mDMPT1?si=f8217fb0f3f34c0c&nd=1&dlsi=8fc9baf1d5854ea9"
         },
         {
           src: cannaklaus_6,
-          caption: "This is a test 1",
-          link: "https://www.google.com"
+          caption: "mis visuales",
+          link: "https://open.spotify.com/track/6KMTdas2Abkc5hQ8mDMPT1?si=f8217fb0f3f34c0c&nd=1&dlsi=8fc9baf1d5854ea9"
         },
         {
           src: cannaklaus_7,
-          caption: "This is a test 1",
-          link: "https://www.google.com"
+          caption: "mis visuales sobre un cuadro",
+          link: "https://open.spotify.com/track/6KMTdas2Abkc5hQ8mDMPT1?si=f8217fb0f3f34c0c&nd=1&dlsi=8fc9baf1d5854ea9"
         },
         {
           src: cannaklaus_8,
-          caption: "This is a test 1",
-          link: "https://www.google.com"
+          caption: "mis visuales sobre un cuadro",
+          link: "https://open.spotify.com/track/6KMTdas2Abkc5hQ8mDMPT1?si=f8217fb0f3f34c0c&nd=1&dlsi=8fc9baf1d5854ea9"
         },
         {
           src: cannaklaus_9,
-          caption: "This is a test 1",
-          link: "https://www.google.com"
+           caption: "???",
+          link: "https://open.spotify.com/track/6KMTdas2Abkc5hQ8mDMPT1?si=f8217fb0f3f34c0c&nd=1&dlsi=8fc9baf1d5854ea9"
         },
         {
           src: cannaklaus_10,
-          caption: "This is a test 1",
-          link: "https://www.google.com"
+          caption: "Despedida de Arcano",
+          link: "https://www.instagram.com/arcano.cero.gallery/"
         },
         {
           src: cannaklaus_11,
-          caption: "This is a test 1",
-          link: "https://www.google.com"
+          caption: "mis visuales",
+          link: "https://open.spotify.com/track/6KMTdas2Abkc5hQ8mDMPT1?si=f8217fb0f3f34c0c&nd=1&dlsi=8fc9baf1d5854ea9"
         },
         {
           src: cannaklaus_12,
-          caption: "This is a test 1",
-          link: "https://www.google.com"
+          caption: "mis visuales",
+          link: "https://open.spotify.com/track/6KMTdas2Abkc5hQ8mDMPT1?si=f8217fb0f3f34c0c&nd=1&dlsi=8fc9baf1d5854ea9"
         },
         {
           src: cannaklaus_13,
-          caption: "This is a test 1",
-          link: "https://www.google.com"
+          caption: "mis visuales",
+          link: "https://open.spotify.com/track/6KMTdas2Abkc5hQ8mDMPT1?si=f8217fb0f3f34c0c&nd=1&dlsi=8fc9baf1d5854ea9"
         },
         
       ]
@@ -163,7 +167,14 @@ MC.`,
       country: "México",
       coords: "00,0000000, 00,0000000",
       description:
-        "",
+`Desde que comencé a tocar con los de EMOMX y empecé a conocer a la gente involucrada escuchaba que a finales de año se iba a hacer un evento de aniversario porque el movimiento había estado creciendo durante los últimos meses y bueno, creo que el resultado fue mucho mejor de lo esperado.
+Fue una idea bastante ambiciosa para el panorama actual, se había convocado ya a varios artistas que estuvieran haciendo live y la organización del evento seguro iba a ser algo retador pero al final, con el trabajo en conjunto de todos los involucrados creo que se logró un evento de calidad donde tocaron muchos artistas que ya conocíamos y otros más se sumaron.
+Aparte tuve la oportunidad de tocar 2 sets el mismo día, el primero fue un set experimental, algunas maquetas de ambient, ritmos y melodías autogeneradas y otros experimentos que tenía ganas de tocar, este set se tocó a la hora del atardecer al inicio del evento. Acompañado de los visuales de AD en los árboles y con la gente que llegó a escucharlo se creó un ambiente muy chido que era diferente a las veces que toco el otro tipo de set, algo que voy a buscar tocar más seguido.
+El segundo set fue el mejor, 4 canciones que ya están bastante trabajadas y que han madurado muy bien a lo largo del tiempo, por fin pude tocarlas con todo el setup necesario (que fue un show mover de un lado al otro pero bueno, así es esto) y el resultado fue mucho mejor de lo esperado, bastante gente lo apreció y con el simple hecho de que estuvieran ahí escuchándolo se sintió como una victoria para mi. 
+Creo que es el mejor evento en el que varios nos hemos presentado y estuvo muy chido ver a los proyectos con los que he crecido y a otros que ya estaban formados seguir progresando, tocando tracks y sets nuevos, usando equipos raros y complejos y ver que cada uno de nosotros vamos poco a poco encontrando nuestro sonido y nuestro estilo es un síntoma muy claro de que estamos progresando como músicos y como colectivo.
+Muchas gracias a todos mis amigos y conocidos que fueron al evento a vernos, a todos los artistas que se rifaron tocando en el evento y a los que apoyaron de una manera u otra a que esto sucediera, fue demasiado para mi.
+MC.
+`,
       date: "27/12/2024",
       time: "23:00 HRS",
       links: [
@@ -172,119 +183,167 @@ MC.`,
           link: "https://www.instagram.com/emom_mx/",
         },
         {
-          title: "Casa Cultural Calavera",
-          link: "https://www.instagram.com/casa_cultural_calavera/",
+          title: "Ker",
+          link: "https://www.instagram.com/___ker/"
         },
         {
-          title: "Post de Insta",
-          link: "https://www.instagram.com/p/DCkF_2IRref/?img_index=1",
+          title: "Terrible Bytes",
+          link: "https://www.instagram.com/trrbl.bytes/",
+        },
+        {
+          title: "Sinclair",
+          link: "https://www.instagram.com/sinclaircastro2022/",
+        },
+        {
+          title: "4/4",
+          link: "https://www.instagram.com/p/DD756BTytfL/",
+        },
+        {
+          title: "Fall Fever",
+          link: "https://www.instagram.com/the_fall_fever/",
+        },
+        {
+          title: "Paskal Vallis",
+          link: "https://www.instagram.com/paskal_vallis_/",
+        },
+        {
+          title: "DJ Sanpler",
+          link: "https://www.instagram.com/djsanpler/",
+        },
+        {
+          title: "Galería Arcano 0",
+          link: "https://www.instagram.com/arcano.cero.gallery/"
+        },
+        {
+          title: "Escucha Analepsis",
+          link: "https://metachromatic.online/analepsis",
+        },
+        {
+          title: "Soundmachine",
+          link: "https://www.instagram.com/soundmachinemx/"
+        },
+        {
+          title: "elefphant",
+          link: "https://www.instagram.com/elefphanth/"
+        },
+        {
+          title: "AD",
+          link: "https://www.instagram.com/adrianvake/"
+        },
+        {
+          title: "Blackcat",
+          link: "https://www.instagram.com/blackcat.proyect/"
+        },
+        {
+          title: "Flyer del Evento",
+          link: "https://www.instagram.com/p/DDTXnD6uisS/"
         },
       ],
       images: [
         {
           src: emom_aniversario_1,
-          caption: "This is a test 1",
-          link: "https://www.google.com"
+          caption: "yo",
+          link: "https://open.spotify.com/track/6KMTdas2Abkc5hQ8mDMPT1?si=f8217fb0f3f34c0c&nd=1&dlsi=8fc9baf1d5854ea9"
         },
         {
           src: emom_aniversario_2,
-          caption: "This is a test 1",
-          link: "https://www.google.com"
+          caption: "",
+          link: "https://open.spotify.com/track/6KMTdas2Abkc5hQ8mDMPT1?si=f8217fb0f3f34c0c&nd=1&dlsi=8fc9baf1d5854ea9"
         },
         {
           src: emom_aniversario_3,
-          caption: "This is a test 1",
-          link: "https://www.google.com"
+          caption: "",
+          link: "https://open.spotify.com/track/6KMTdas2Abkc5hQ8mDMPT1?si=f8217fb0f3f34c0c&nd=1&dlsi=8fc9baf1d5854ea9"
         },
         {
           src: emom_aniversario_4,
-          caption: "This is a test 1",
-          link: "https://www.google.com"
+          caption: "",
+          link: "https://open.spotify.com/track/6KMTdas2Abkc5hQ8mDMPT1?si=f8217fb0f3f34c0c&nd=1&dlsi=8fc9baf1d5854ea9"
         },
         {
           src: emom_aniversario_5,
-          caption: "This is a test 1",
+          caption: "mi cuadro favorito de Arcano",
           link: "https://www.google.com"
         },
         {
           src: emom_aniversario_6,
-          caption: "This is a test 1",
-          link: "https://www.google.com"
+          caption: "foto del scouting de arcano",
+          link: "https://www.instagram.com/arcano.cero.gallery/"
         },
         {
           src: emom_aniversario_7,
-          caption: "This is a test 1",
-          link: "https://www.google.com"
+          caption: "el escenario de ambient del evento",
+          link: "https://www.instagram.com/arcano.cero.gallery/"
         },
         {
           src: emom_aniversario_8,
-          caption: "This is a test 1",
-          link: "https://www.google.com"
+           caption: "el escenario de ambient del evento",
+          link: "https://www.instagram.com/arcano.cero.gallery/"
         },
         {
           src: emom_aniversario_9,
-          caption: "This is a test 1",
-          link: "https://www.google.com"
+          caption: "synthmonkey posando con el setup",
+          link: "https://www.instagram.com/synthemonkey/"
         },
         {
           src: emom_aniversario_10,
-          caption: "This is a test 1",
-          link: "https://www.google.com"
+          caption: "setup",
+          link: "https://www.instagram.com/zxscet/"
         },
         {
           src: emom_aniversario_11,
-          caption: "This is a test 1",
-          link: "https://www.google.com"
+          caption: "Blackcat y zxscet",
+          link: "https://www.instagram.com/blackcat.proyect/"
         },
         {
           src: emom_aniversario_12,
-          caption: "This is a test 1",
-          link: "https://www.google.com"
+          caption: "zxcset",
+          link: "https://www.instagram.com/zxscet/"
         },
         {
           src: emom_aniversario_13,
-          caption: "This is a test 1",
-          link: "https://www.google.com"
+          caption: "zxcset",
+          link: "https://www.instagram.com/zxscet/"
         },
         {
           src: emom_aniversario_14,
-          caption: "This is a test 1",
-          link: "https://www.google.com"
+          caption: "???",
+          link: "https://open.spotify.com/track/6KMTdas2Abkc5hQ8mDMPT1?si=f8217fb0f3f34c0c&nd=1&dlsi=8fc9baf1d5854ea9"
         },
         {
           src: emom_aniversario_15,
-          caption: "This is a test 1",
-          link: "https://www.google.com"
+          caption: "otro cuadro de arcano",
+          link: "https://www.instagram.com/arcano.cero.gallery/"
         },
         {
           src: emom_aniversario_16,
-          caption: "This is a test 1",
-          link: "https://www.google.com"
+          caption: "mi setup",
+          link: "https://open.spotify.com/track/6KMTdas2Abkc5hQ8mDMPT1?si=f8217fb0f3f34c0c&nd=1&dlsi=8fc9baf1d5854ea9"
         },
         {
           src: emom_aniversario_17,
-          caption: "This is a test 1",
-          link: "https://www.google.com"
+          caption: "setup de ker",
+          link: "https://www.instagram.com/___ker/"
         },
         {
           src: emom_aniversario_18,
-          caption: "This is a test 1",
-          link: "https://www.google.com"
+         caption: "setup de ker",
+          link: "https://www.instagram.com/___ker/"
         },
         {
           src: emom_aniversario_19,
-          caption: "This is a test 1",
-          link: "https://www.google.com"
+          caption: "ker",
+          link: "https://www.instagram.com/___ker/"
         },
         {
           src: emom_aniversario_20,
-          caption: "This is a test 1",
-          link: "https://www.google.com"
+          caption: "ker",
+          link: "https://www.instagram.com/___ker/"
         },
         {
           src: emom_aniversario_21,
-          caption: "This is a test 1",
-          link: "https://www.google.com"
+          caption: "setup de ostel",
+          link: "https://www.instagram.com/ostelmx/"
         },
         
       ]
@@ -384,8 +443,8 @@ MC.
       time: "23:00 HRS",
       links: [
         {
-          title: "Post de Instagram",
-          link: "https://www.instagram.com/p/DCkF_2IRref/?img_index=1",
+          title: "EMOMx",
+          link: "https://www.instagram.com/emom_mx/",
         },
         {
           title: "Terrible Bytes",
