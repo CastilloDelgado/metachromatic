@@ -51,6 +51,30 @@ import cannaklaus_13 from "./assets/cannaklaus/cannaklaus_13.jpeg";
 
 export const BITACORA = {
   events: [
+    // Volumen 1 Evento Canabico
+    {
+      title: "Visuales para Kozovo",
+      titleLink: "",
+      location: "Arcano 0",
+      city: "Guadalajara",
+      state: "Jalisco",
+      country: "México",
+      coords: "00,0000000, 00,0000000",
+      description: 
+`Invité a Kozovo para el evento de presentación de mi albúm Volumen I y para su presentación hice unos visuales que me gustaron bastante.
+Aquí dejo el video del set de Kozovo de casi 1 hora donde proyecto visuales directamente desde touchdesigner y juego con ellos en vivo durante la presentación.
+MC.`,
+      date: "28/12/2024",
+      time: "23:00 HRS",
+      video: "https://www.youtube.com/embed/72uM0DhsnsE?si=RbMctU5CDExAIgmb",
+      links: [
+        {
+          title: "Kozovo",
+          link: "https://www.instagram.com/_kozovo_/"
+        },
+      ],
+      images: []
+    },
     // Canaklaus Evento Canabico
     {
       title: "Cannaklaus Evento Cannábico en Galería Arcano 0",

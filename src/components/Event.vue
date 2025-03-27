@@ -20,6 +20,7 @@ defineProps({
             <p>{{ event.time }}</p>
         </div>
         <p class="text-sans text-justify text-sm mb-2" v-for="paragraph in event.description.split(/\r?\n/)" >{{ paragraph }}</p>
+        <iframe v-if="event.video" :src="event.video" class="w-full h-[60vh]" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         <div v-if="event.images" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-2 pt-3 pb-1">
             <a v-for="image in event.images" :href="image.link" target="_blank">
                 <div class="h-96 pb-4">
